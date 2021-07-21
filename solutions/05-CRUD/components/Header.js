@@ -49,7 +49,7 @@ const Header = props => {
               // update local state
               client.writeData({ data: { isLoggedIn: false } });
               // redirect the user to the homepage
-              props.history.push('/');
+              props.history.push('/signin');
             }}
           >
             Logout
